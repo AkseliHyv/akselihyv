@@ -54,9 +54,9 @@ MicroPython firmware for a heart rate variability monitor that measures through 
 
 #### [AksBox](https://github.com/AkseliHyv/aksbox)
 
-A game console built around an ESP32. The firmware and the games are written in C and run straight on the hardware, with no operating system underneath.
+A game console built on an ESP32-S3. A launcher lists games from plug-in cartridges and an internal microSD library, flashes the chosen one into a spare app partition and boots it. Launcher and games share one engine written in C.
 
-`C` `ESP32` `Embedded`
+`C` `ESP32-S3` `ESP-IDF` `FreeRTOS`
 
 <sub>**In progress**</sub>
 
