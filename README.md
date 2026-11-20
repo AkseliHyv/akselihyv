@@ -1,89 +1,38 @@
-<div align="center">
+<img src="assets/perlis.png" align="left" width="200" alt="Alan J. Perlis">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/name-dark.png">
-  <img alt="Akseli Hyvönen" src="assets/name-light.png">
-</picture>
+*“I think that it’s extraordinarily important that we in computer science keep fun in computing. When it started out, it was an awful lot of fun. Of course, the paying customers got shafted every now and then, and after a while we began to take their complaints seriously. We began to feel as if we really were responsible for the successful, error-free perfect use of these machines. I don’t think we are. I think we’re responsible for stretching them, setting them off in new directions, and keeping fun in the house. I hope the field of computer science never loses its sense of fun. Above all, I hope we don’t become missionaries. Don’t feel as if you’re Bible salesmen. The world has too many of those already. What you know about computing other people will learn. Don’t feel as if the key to successful computing is only in your hands. What’s in your hands, I think and hope, is intelligence: the ability to see the machine as more than when you were first led up to it, that you can make it more.”*
 
-**software developer** &nbsp;&nbsp;&nbsp; also going by **axilian**
+**Alan J. Perlis** (April 1, 1922 – February 7, 1990)
 
-Most of what I build runs on hardware I own; local LLM tooling,<br>
-microcontroller firmware, and the web apps that sit in front of them.
+<br clear="left">
 
-[**akselihyv.com**](https://akselihyv.com) &nbsp;&nbsp;&nbsp; [**linkedin**](https://www.linkedin.com/in/akseli-hyv%C3%B6nen/) &nbsp;&nbsp;&nbsp; [**akselihyv@gmail.com**](mailto:akselihyv@gmail.com)
+# Akseli Hyvönen
 
-</div>
+Software developer, also going by axilian. Most of what I build runs on hardware I own: local LLM tooling, microcontroller firmware, and the web apps that sit in front of them.
 
----
+You can find me at [akselihyv.com](https://akselihyv.com), on [LinkedIn](https://www.linkedin.com/in/akseli-hyv%C3%B6nen/), or at [akselihyv@gmail.com](mailto:akselihyv@gmail.com).
 
-## Projects
+## Things I've been making
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**[AkseLLM](https://github.com/AkseliHyv/aksellm)**\
+A self-hosted web app for managing and chatting with local LLM configurations that run on [Ollama](https://ollama.com). Each configuration has its own parameters and system prompt, and responses stream in as Markdown, highlighted code and LaTeX. Runs as a single container.\
+<sub>React, TypeScript, ASP.NET Core, Supabase, Docker. Complete.</sub>
 
-<a href="https://github.com/AkseliHyv/aksellm"><img src="assets/aksellm.png" alt="AkseLLM"></a>
+**[Aceso](https://github.com/AkseliHyv/aceso)**\
+MicroPython firmware for a heart rate variability monitor that measures through photoplethysmography, made in a team of three. It draws the live PPG waveform on an OLED display, computes HRV on the device, and sends measurements to Kubios over MQTT for further analysis.\
+<sub>MicroPython, Raspberry Pi Pico W, MQTT. Complete.</sub>
 
-#### [AkseLLM](https://github.com/AkseliHyv/aksellm)
+**[AksBox](https://github.com/AkseliHyv/aksbox)**\
+A handheld game console built from scratch around an ESP32-S3. The display driver, input handling, graphics, audio synthesis and game engine are all written for it, with no Arduino layer or graphics library. Currently a breadboard prototype.\
+<sub>C, ESP-IDF, FreeRTOS. In progress.</sub>
 
-Self-hosted web app for managing and chatting with local LLM configurations that run on [Ollama](https://ollama.com). Each configuration keeps its own sampling parameters and system prompt, with a persistent message history.
+**AksoBot**\
+A voice robot that listens, thinks and talks back. It detects speech with a custom voice activity detector, transcribes it locally with Faster Whisper, answers with a local model on Ollama, and speaks through Edge TTS. Meant to eventually live inside a physical robot on a Raspberry Pi.\
+<sub>Python, Faster Whisper, Ollama, Edge TTS. In progress.</sub>
 
-`React` `TypeScript` `ASP.NET Core` `C#` `Supabase` `Docker`
+## Other things
 
-<sub>**Complete**</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/AkseliHyv/aceso"><img src="assets/aceso.png" alt="Aceso"></a>
-
-#### [Aceso](https://github.com/AkseliHyv/aceso)
-
-MicroPython firmware for a heart rate variability monitor that measures through photoplethysmography. Runs on a Pico W with a pulse sensor and an OLED display, with an on-device UI for taking a reading and reviewing results.
-
-`MicroPython` `Raspberry Pi Pico W` `MQTT`
-
-<sub>**Complete**</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<a href="https://github.com/AkseliHyv/aksbox"><img src="assets/aksbox.png" alt="AksBox"></a>
-
-#### [AksBox](https://github.com/AkseliHyv/aksbox)
-
-A game console built on an ESP32-S3. A launcher lists games from plug-in cartridges and an internal microSD library, flashes the chosen one into a spare app partition and boots it. Launcher and games share one engine written in C.
-
-`C` `ESP32-S3` `ESP-IDF` `FreeRTOS`
-
-<sub>**In progress**</sub>
-
-</td>
-<td width="50%" valign="top">
-
-<img src="assets/aksobot.png" alt="aksobot">
-
-#### aksobot
-
-A voice robot that listens through a custom activity detector, transcribes with Faster Whisper, thinks with a local model on Ollama, and talks back. Built to live inside a physical robot on a Raspberry Pi.
-
-`Python` `Raspberry Pi` `Faster Whisper` `Ollama` `Edge TTS`
-
-<sub>**In progress**</sub>
-</table>
-
----
-
-## Tools
-
-| Area | Stack |
-| --- | --- |
-| **Languages** | `C#` &nbsp;`TypeScript` &nbsp;`JavaScript` &nbsp;`Python` &nbsp;`C` &nbsp;`PHP` |
-| **Frontend** | `React` &nbsp;`Next.js` &nbsp;`Blazor` &nbsp;`Tailwind` &nbsp;`HTML` &nbsp;`CSS` &nbsp;`WPF/WinForms` |
-| **Backend** | `ASP.NET Core` &nbsp;`Node.js` &nbsp;`Express` &nbsp;`REST APIs` |
-| **Data** | `PostgreSQL` &nbsp;`MySQL` &nbsp;`MongoDB` &nbsp;`Supabase` |
-| **Infrastructure** | `Docker` &nbsp;`Kubernetes` &nbsp;`Linux` &nbsp;`Git` |
-| **Embedded** | `ESP32` &nbsp;`Raspberry Pi` &nbsp;`Pico W` &nbsp;`MicroPython` &nbsp;`MQTT` |
-| **Other** | `Ollama` &nbsp;`Unity` |
+- [Night-Noise Box](https://github.com/AkseliHyv/junction2026-vendetta): a noise monitor on the Arduino UNO Q, made at Junction 2026. Each box guesses what's making the noise with an Edge Impulse model and uploads only summary numbers to a server that draws every box on a map.
+- [Connect Suggests](https://github.com/ptchtrns/fonecta-since-ai): our entry for the Fonecta challenge at Since AI Hackathon 2026. It predicts businesses' holiday opening hours with gradient-boosted trees, asks owners over WhatsApp, Telegram or email whether the suggestion is right, and writes approved hours to Yext.
+- [Preppi](https://github.com/Oplosity/preppi): a quiz platform for exam prep, made as a school project in a team of six. Next.js, Express and PostgreSQL.
+- [Hunters of Artifacts](https://github.com/AkseliHyv/hunters-of-artifacts): a local multiplayer game in Python where players travel between airports collecting money, items and artifacts, with a [web version](https://github.com/AkseliHyv/hunters-of-artifacts-2) after it.
