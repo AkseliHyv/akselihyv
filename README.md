@@ -15,7 +15,7 @@
 
 # Akseli Hyvönen
 
-Software developer studying at Metropolia, also going by axilian. I mostly build embedded things and tools around local language models: a handheld console written from scratch on an ESP32-S3, a heart rate monitor on a Pico W, and a chat app and a voice robot that run on models hosted on my own machines. I also make games, and lately I've been spending my weekends at hackathons.
+Software developer studying at Metropolia, also going by axilian. I mostly build embedded things and tools around local language models, and I also make games. Lately I've been spending my weekends at hackathons.
 
 You can find me at [akselihyv.com](https://akselihyv.com), on [LinkedIn](https://www.linkedin.com/in/akseli-hyv%C3%B6nen/), or at [akselihyv@gmail.com](mailto:akselihyv@gmail.com).
 
@@ -30,16 +30,29 @@ MicroPython firmware for a heart rate variability monitor that measures through 
 <sub>MicroPython, Raspberry Pi Pico W, MQTT. Complete.</sub>
 
 **[AksBox](https://github.com/AkseliHyv/aksbox)**\
-A handheld game console built from scratch around an ESP32-S3. The display driver, input handling, graphics, audio synthesis and game engine are all written for it, with no Arduino layer or graphics library. Currently a breadboard prototype.\
-<sub>C, ESP-IDF, FreeRTOS. In progress.</sub>
+A handheld game console built from scratch around an ESP32-S3. The display driver, input handling, graphics, audio synthesis and game engine are all written for it, with no Arduino layer or graphics library.\
+<sub>C, ESP-IDF, FreeRTOS. Complete.</sub>
 
 **AksoBot**\
 A voice robot that listens, thinks and talks back. It detects speech with a custom voice activity detector, transcribes it locally with Faster Whisper, answers with a local model on Ollama, and speaks through Edge TTS. Meant to eventually live inside a physical robot on a Raspberry Pi.\
 <sub>Python, Faster Whisper, Ollama, Edge TTS. In progress.</sub>
 
+## Hackathons
+
+**[NoPE](https://github.com/AkseliHyv/junction2026-vendetta)**\
+A noise monitor on the Arduino UNO Q, made in a team of three. Each box guesses what's making the noise with an Edge Impulse model and uploads only summary numbers to a server that draws every box on a map.\
+<sub>Python, Edge Impulse, MongoDB. Junction 2026.</sub>
+
+**[Connect Suggests](https://github.com/ptchtrns/fonecta-since-ai)**\
+Our entry for the Fonecta challenge, made in a team of three. It predicts businesses' holiday opening hours, asks owners over WhatsApp, Telegram or email whether the suggestion is right, and writes approved hours to Yext. I built the predictor with gradient-boosted trees, and it scored 68.3% against the organisers' baseline of 54.5%.\
+<sub>Python, scikit-learn, TypeScript. Since AI Hackathon 2026.</sub>
+
 ## Other things
 
-- [NoPE](https://github.com/AkseliHyv/junction2026-vendetta): a noise monitor on the Arduino UNO Q, made at Junction 2026. Each box guesses what's making the noise with an Edge Impulse model and uploads only summary numbers to a server that draws every box on a map.
-- [Connect Suggests](https://github.com/ptchtrns/fonecta-since-ai): our entry for the Fonecta challenge at Since AI Hackathon 2026. It predicts businesses' holiday opening hours with gradient-boosted trees, asks owners over WhatsApp, Telegram or email whether the suggestion is right, and writes approved hours to Yext.
-- [Preppi](https://github.com/Oplosity/preppi): a quiz platform for exam prep, made as a school project in a team of six. Next.js, Express and PostgreSQL.
-- [Hunters of Artifacts](https://github.com/AkseliHyv/hunters-of-artifacts): a local multiplayer game in Python where players travel between airports collecting money, items and artifacts, with a [web version](https://github.com/AkseliHyv/hunters-of-artifacts-2) after it.
+**[Preppi](https://github.com/Oplosity/preppi)**\
+A quiz platform for exam prep, made as a school project in a team of six.\
+<sub>Next.js, Express, PostgreSQL. Complete.</sub>
+
+**[Hunters of Artifacts](https://github.com/AkseliHyv/hunters-of-artifacts)**\
+A local multiplayer game where players travel between airports collecting money, items and artifacts. It later got a [web version](https://github.com/AkseliHyv/hunters-of-artifacts-2).\
+<sub>Python, Flask, MySQL, JavaScript. Complete.</sub>
