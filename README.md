@@ -39,7 +39,7 @@ A voice robot that listens, thinks and talks back. It detects speech with a cust
 
 ## Other things
 
-- [Night-Noise Box](https://github.com/AkseliHyv/junction2026-vendetta): a noise monitor on the Arduino UNO Q, made at Junction 2026. Each box guesses what's making the noise with an Edge Impulse model and uploads only summary numbers to a server that draws every box on a map.
+- [NoPE](https://github.com/AkseliHyv/junction2026-vendetta): a noise monitor on the Arduino UNO Q, made at Junction 2026. Each box guesses what's making the noise with an Edge Impulse model and uploads only summary numbers to a server that draws every box on a map.
 - [Connect Suggests](https://github.com/ptchtrns/fonecta-since-ai): our entry for the Fonecta challenge at Since AI Hackathon 2026. It predicts businesses' holiday opening hours with gradient-boosted trees, asks owners over WhatsApp, Telegram or email whether the suggestion is right, and writes approved hours to Yext.
 - [Preppi](https://github.com/Oplosity/preppi): a quiz platform for exam prep, made as a school project in a team of six. Next.js, Express and PostgreSQL.
 - [Hunters of Artifacts](https://github.com/AkseliHyv/hunters-of-artifacts): a local multiplayer game in Python where players travel between airports collecting money, items and artifacts, with a [web version](https://github.com/AkseliHyv/hunters-of-artifacts-2) after it.
