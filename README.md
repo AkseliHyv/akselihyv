@@ -25,7 +25,7 @@ You can find me at [akselihyv.com](https://akselihyv.com), on [LinkedIn](https:/
 A self-hosted web app for managing and chatting with local LLM configurations that run on [Ollama](https://ollama.com). Each configuration has its own parameters and system prompt, and responses stream in as Markdown, highlighted code and LaTeX. Runs as a single container.\
 <sub>React, TypeScript, ASP.NET Core, Supabase, Docker. Complete.</sub>
 
-**[Aceso](https://github.com/AkseliHyv/aceso)**\
+**[Akeso](https://github.com/AkseliHyv/akeso)**\
 MicroPython firmware for a heart rate variability monitor that measures through photoplethysmography, made in a team of three. It draws the live PPG waveform on an OLED display, computes HRV on the device, and sends measurements to Kubios over MQTT for further analysis.\
 <sub>MicroPython, Raspberry Pi Pico W, MQTT. Complete.</sub>
 
