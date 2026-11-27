@@ -54,5 +54,5 @@ A quiz platform for exam prep, made as a school project in a team of six.\
 <sub>Next.js, Express, PostgreSQL. Complete.</sub>
 
 **[Hunters of Artifacts](https://github.com/AkseliHyv/hunters-of-artifacts)**\
-A local multiplayer game where players travel between airports collecting money, items and artifacts. It later got a [web version](https://github.com/AkseliHyv/hunters-of-artifacts-2).\
+A local multiplayer game where players travel between airports collecting money, items and artifacts. It started in the terminal and later got a web version, and both are in the same repo.\
 <sub>Python, Flask, MySQL, JavaScript. Complete.</sub>
